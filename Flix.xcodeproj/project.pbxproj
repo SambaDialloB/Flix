@@ -10,6 +10,8 @@
 		8CEEE18D2306CA0238EFD220 /* Pods_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA056DD78AC97D1332963E48 /* Pods_FlixUITests.framework */; };
 		992E8809D6C0F508797A14C7 /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C372C7629FC4136C26DC4758 /* Pods_FlixTests.framework */; };
 		A20E86101E97C7D0217FE893 /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0F7725105CAB9943AE40F3 /* Pods_Flix.framework */; };
+		A28A3898204CE4D5001FD862 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28A3897204CE4D5001FD862 /* Movie.swift */; };
+		A28A389A204CE877001FD862 /* MovieAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28A3899204CE877001FD862 /* MovieAPIManager.swift */; };
 		EC13B8CE201FD466007EF228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13B8CD201FD466007EF228 /* AppDelegate.swift */; };
 		EC13B8D3201FD466007EF228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC13B8D1201FD466007EF228 /* Main.storyboard */; };
 		EC13B8D5201FD466007EF228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC13B8D4201FD466007EF228 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		14A3F31C75ECBEB2886EC6C6 /* Pods-Flix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flix/Pods-Flix.release.xcconfig"; sourceTree = "<group>"; };
 		57B06ADB230F3869ACC5C49F /* Pods-FlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlixUITests/Pods-FlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A28A3897204CE4D5001FD862 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A28A3899204CE877001FD862 /* MovieAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIManager.swift; sourceTree = "<group>"; };
 		A4FCC901D56637655DABDA3B /* Pods-FlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlixUITests/Pods-FlixUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C372C7629FC4136C26DC4758 /* Pods_FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB701B09EE23AB46E930907C /* Pods-FlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlixTests/Pods-FlixTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				ECB8A45D202910C90034C4E5 /* Views */,
 				ECB8A45C202910A20034C4E5 /* ViewControllers */,
 				EC13B8CD201FD466007EF228 /* AppDelegate.swift */,
+				A28A3897204CE4D5001FD862 /* Movie.swift */,
+				A28A3899204CE877001FD862 /* MovieAPIManager.swift */,
 				EC13B8D1201FD466007EF228 /* Main.storyboard */,
 				EC13B8D4201FD466007EF228 /* Assets.xcassets */,
 				EC13B8D6201FD466007EF228 /* LaunchScreen.storyboard */,
@@ -488,10 +494,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28A3898204CE4D5001FD862 /* Movie.swift in Sources */,
 				EC13B8FC201FDDC0007EF228 /* NowPlayingViewController.swift in Sources */,
 				ECB8A46120291C0E0034C4E5 /* PosterCell.swift in Sources */,
 				ECB8A46320291C770034C4E5 /* SuperheroViewController.swift in Sources */,
 				EC13B8CE201FD466007EF228 /* AppDelegate.swift in Sources */,
+				A28A389A204CE877001FD862 /* MovieAPIManager.swift in Sources */,
 				EC3520752022AE590084E791 /* MovieCell.swift in Sources */,
 				ECB8A45F202911040034C4E5 /* DetailViewController.swift in Sources */,
 			);
